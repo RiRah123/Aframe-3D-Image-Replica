@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3D Replica of "Wheatfield with Crows" - Nathan Lin, Makenna Kelly, Rian Rahman</title>
+    <meta name="description" content="Landscape Scenery • A-Frame" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene
+      inspector=""
+      keyboard-shortcuts=""
+      screenshot=""
+      vr-mode-ui=""
+      device-orientation-permission-ui=""
+      light=""
+    >
+      <a-assets>
+        <a-asset-item
+          id="wheat"
+          src="assets/wheat.glb"
+        />
+      </a-assets>
+      <a-sky
+        radius="200"
+        theta-length="110"
+        class="environment"
+        material="shader: skyshader; sunPosition: -0.104 0.944 0.312; mieCoefficient: 0; mieDirectionalG: 0.93"
+        visible=""
+        geometry="radius: 300"
+        light="color: #fff9eb; groundColor: #201818; intensity: 1.17"
+      />
+    </a-scene>
+  </body>
+</html>
