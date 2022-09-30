@@ -16,40 +16,44 @@
       device-orientation-permission-ui=""
       light=""
     >
+
+      <!-- List of GLB Assets Used -->
       <a-assets>
         <a-asset-item
           id="crow"
           src="assets/crow.glb"
         />
         <a-asset-item
-          id="wheat"
-          src="assets/wheat.glb"
+          id="wheatfield"
+          src="assets/wheatfield.glb"
         />
       </a-assets>
+
+      <!-- Camera Positoning -->
       <a-entity id='cameraWrapper' position="0 1.5 40" rotation="-0.325 -40 -0.325">
         <a-camera></a-camera>
       </a-entity>
+
+      <!-- Sky -->
       <a-sky
         radius="100"
         theta-length="100"
         class="environment"
-        material="shader: skyshader; sunPosition: -0.104 0.944 0.312; mieCoefficient: 0; mieDirectionalG: 0.93"
+        material="shader: skyshader; sunPosition: 100 20 100; mieCoefficient: 0; mieDirectionalG: 0.93"
         visible=""
         geometry="radius: 200"
       />
-      <!-- 
+
+      <!-- Global Shadow -->
+      <a-entity shadow="cast: true receive: true"/>
+
+      <!-- Wheatfield -->
       <a-entity 
-        gltf-model="#crow"
-        position="0 1.7 0.02"
-        scale="0.001 0.001 0.001"
-        rotation="-0.325 46.104 -0.33"
-      > -->
-      <a-entity 
-        gltf-model="#wheat"
+        gltf-model="#wheatfield"
         position="-0.011 1 -0.06"
         scale="0.1 0.1 0.1"
         rotation="-0.325 46.104 -0.33"
-      />   
+      />
     </a-scene>
   </body>
 </html>
