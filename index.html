@@ -6,6 +6,10 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+    <script>
+      el.setAttribute('gltf-model', './assets/crow.glb')
+      el.setAttribute('gltf-model', './assets/wheatfield.glb')
+    </script>
   </head>
   <body>
     <a-scene
@@ -19,6 +23,7 @@
 
       <!-- List of GLB Assets Used -->
       <a-assets>
+        <a-asset-item id="glbtestmodel" src="https://cdn.glitch.com/90a30469-f038-4054-be9c-fd1ec94a810d%2Fkitchentest.glb"></a-asset-item>
         <a-asset-item id="crow" src="assets/crow.glb"></a-asset-item>
         <a-asset-item id="wheatfield" src="assets/wheatfield.glb"></a-asset-item>
       </a-assets>
