@@ -8,6 +8,15 @@
     <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
   </head>
   <body>
+    <a-assets>
+      <a-asset-item
+        id="wheat"
+        src="assets/simple_grass_chunks.glb"
+      />
+    </a-assets>
+    <a-entity id='cameraWrapper' position="0 0 0">
+      <a-camera></a-camera>
+    </a-entity>    
     <a-scene
       inspector=""
       keyboard-shortcuts=""
@@ -16,8 +25,7 @@
       device-orientation-permission-ui=""
       light=""
     >
-
-      <a-sky
+      <!-- <a-sky
         radius="200"
         theta-length="110"
         class="environment"
@@ -25,7 +33,13 @@
         visible=""
         geometry="radius: 300"
         light="color: #fff9eb; groundColor: #201818; intensity: 1.17"
-      />
+      /> -->
+      <a-entity 
+        gltf-model="#wheat"
+        position="-200 -20 0"
+        scale="150 100 150"
+      >
+      </a-entity>
     </a-scene>
   </body>
 </html>
