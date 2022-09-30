@@ -8,15 +8,6 @@
     <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
   </head>
   <body>
-    <a-assets>
-      <a-asset-item
-        id="wheat"
-        src="assets/simple_grass_chunks.glb"
-      />
-    </a-assets>
-    <a-entity id='cameraWrapper' position="0 0 0">
-      <a-camera></a-camera>
-    </a-entity>    
     <a-scene
       inspector=""
       keyboard-shortcuts=""
@@ -25,21 +16,40 @@
       device-orientation-permission-ui=""
       light=""
     >
-      <!-- <a-sky
+      <a-assets>
+        <a-asset-item
+          id="crow"
+          src="assets/crow.glb"
+        />
+        <a-asset-item
+          id="wheat"
+          src="assets/wheat.glb"
+        />
+      </a-assets>
+      <a-entity id='cameraWrapper' position="0 1.5 40">
+        <a-camera></a-camera>
+      </a-entity>
+      <a-sky
         radius="200"
-        theta-length="110"
+        theta-length="100"
         class="environment"
         material="shader: skyshader; sunPosition: -0.104 0.944 0.312; mieCoefficient: 0; mieDirectionalG: 0.93"
         visible=""
-        geometry="radius: 300"
-        light="color: #fff9eb; groundColor: #201818; intensity: 1.17"
-      /> -->
+        geometry="radius: 200"
+      />
+      <!-- 
+      <a-entity 
+        gltf-model="#crow"
+        position="0 1.7 0.02"
+        scale="0.001 0.001 0.001"
+        rotation="-0.325 46.104 -0.33"
+      > -->
       <a-entity 
         gltf-model="#wheat"
-        position="-200 -20 0"
-        scale="150 100 150"
-      >
-      </a-entity>
+        position="-0.011 1 -0.06"
+        scale="0.1 0.1 0.1"
+        rotation="-0.325 46.104 -0.33"
+      />   
     </a-scene>
   </body>
 </html>
