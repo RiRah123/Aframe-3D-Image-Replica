@@ -8,6 +8,6 @@ For our project, we were required to build a 3D environment from a 2-dimensional
 
 <h3 align="center">
     Original 2D Drawing:<br/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Vincent_Van_Gogh_-_Wheatfield_with_Crows.jpg" height="350" width="700" alt="Wheatfield with Crows by Vincent van Gogh">
+    <a href="https://en.wikipedia.org/wiki/Wheatfield_with_Crows" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Vincent_Van_Gogh_-_Wheatfield_with_Crows.jpg" height="350" width="700" alt="Wheatfield with Crows by Vincent van Gogh"></a>
   </div>
 </h3>
