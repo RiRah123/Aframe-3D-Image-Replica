@@ -19,6 +19,5 @@ For our project, we were required to build a 3D environment based off a 2D piece
 
 ## The Site
 Currently, the 3D Replica is being hosted on GitHub Pages. If you would like to check out our project, please refer to the link below:
-```
-<a href="https://rirah123.github.io/Aframe-3D-Image-Replica" target="_blank">Test</a>
-```
+[https://rirah123.github.io/Aframe-3D-Image-Replica](https://rirah123.github.io/Aframe-3D-Image-Replica)
+
