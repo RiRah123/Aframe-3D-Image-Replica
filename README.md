@@ -3,7 +3,7 @@
 [![AFrame](https://img.shields.io/badge/AFrame-EF2D5E?style=for-the-badge&logo=AFrame&logoColor=white)]()
 
 ## The Site
-Currently, the 3D Replica is being hosted on GitHub Pages. If you would like to check out our project, please refer to the following links:
+Currently, the 3D Replica is being hosted on GitHub Pages. If you would like to check out our project, please refer to the following link:
 [https://rirah123.github.io/Aframe-3D-Image-Replica](https://rirah123.github.io/Aframe-3D-Image-Replica)
 
 **NOTE:** Since the 3D GLB models used for the project have a fairly large file size, it may take a few seconds for the site to load properly, so please be patient!
