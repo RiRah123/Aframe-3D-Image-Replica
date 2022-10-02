@@ -19,6 +19,7 @@
 
       <!-- List of GLB Assets Used -->
       <a-assets>
+        <!--  -->
         <a-asset-item id="crow" src="assets/crow.glb"></a-asset-item>
         <a-asset-item id="wheatfield" src="assets/wheatfield.glb"></a-asset-item>
       </a-assets>
@@ -33,13 +34,16 @@
 
       <!-- Sky -->
       <a-sky
-        radius="230"
+        radius="280"
         theta-length="500"
         class="environment"
         material="shader: skyshader; sunPosition: 90 20 90; mieCoefficient: 0; mieDirectionalG: 0.93"
         visible=""
-        geometry="radius: 230"
+        geometry="radius: 280"
       ></a-sky>
+
+      <!-- Global Light -->
+      <a-entity light="type: hemisphere; color:  #FFF; intensity: 0.75;  penumbra:  0.02;  shadowBias:  0.38;  decay: 0.5"></a-entity>
 
       <!-- Global Shadow -->
       <a-entity shadow="cast: true receive: true"></a-entity>
