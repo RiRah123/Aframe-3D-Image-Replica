@@ -6,6 +6,8 @@
 Currently, the 3D Replica is being hosted on GitHub Pages. If you would like to check out our project, please refer to the following links:
 [https://rirah123.github.io/Aframe-3D-Image-Replica](https://rirah123.github.io/Aframe-3D-Image-Replica)
 
+**NOTE:** Since the 3D GLB models being have a fairly large file size, it may take a few seconds for the site to load, so please be patient!
+
 ## Project Summary
 
 For our project, we were required to build a 3D environment based off a 2D piece of media. Using this as a baseline, we decided to build a 3D image replica of Vincent Willem van Gogh's *Wheatfield with Crows* using A-Frame. An original image of the 2D drawing is attached below and an image of our 3D replica for the drawing it attached below that.
