@@ -22,7 +22,7 @@ For our project, we were required to build a 3D environment based off a 2D piece
 </h3>
 
 ## Credits
-Several GLB models from Skethfab and audio files from Youtube were used in creating our 3D Replica. If you'd like to check out the resources that we used for creating our project, then please refer to the list below
+Several GLB models from Skethfab and audio files from Youtube were used in creating our 3D Replica. If you'd like to check out the resources that we used for creating our project, then please refer to the list below:
 - [Crow 3D GLB Model](https://sketchfab.com/3d-models/dusty-path-in-the-fields-1386c844619e4006a916383158f7ade5)
 - [Wheatfield 3D GLB Model](https://sketchfab.com/3d-models/flying-crow-blacksmiths-workshop-assets-3ecfc0834b5b4883b840d0426c267efe)
 - [Crow and Cricket Sound Effect](https://www.youtube.com/watch?v=oT_Pbxpwlpc&ab_channel=WhatElseIsThere%3F)
