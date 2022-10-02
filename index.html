@@ -19,10 +19,11 @@
 
       <!-- List of GLB Assets Used -->
       <a-assets>
-        <a-asset-item id="glbtestmodel" src="https://cdn.glitch.com/90a30469-f038-4054-be9c-fd1ec94a810d%2Fkitchentest.glb"></a-asset-item>
         <a-asset-item id="crow" src="assets/crow.glb"></a-asset-item>
         <a-asset-item id="wheatfield" src="assets/wheatfield.glb"></a-asset-item>
       </a-assets>
+
+      <a-sound src="src: url(assets/crickets-and-crows-sound.mp3)" preload="auto" autoplay="true"></a-sound>
 
       <!-- Camera Positoning -->
       <a-entity id='cameraWrapper' position="0 1.5 40" rotation="-0.325 -40 -0.325">
@@ -31,12 +32,12 @@
 
       <!-- Sky -->
       <a-sky
-        radius="100"
-        theta-length="100"
+        radius="230"
+        theta-length="500"
         class="environment"
-        material="shader: skyshader; sunPosition: 100 20 100; mieCoefficient: 0; mieDirectionalG: 0.93"
+        material="shader: skyshader; sunPosition: 90 20 90; mieCoefficient: 0; mieDirectionalG: 0.93"
         visible=""
-        geometry="radius: 100"
+        geometry="radius: 230"
       >
       </a-sky>
 
