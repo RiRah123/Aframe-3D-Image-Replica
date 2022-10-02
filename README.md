@@ -18,6 +18,10 @@ For our project, we were required to build a 3D environment based off a 2D piece
 </h3>
 
 ## The Site
-Currently, the 3D Replica is being hosted on GitHub Pages. If you would like to check out our project, please refer to the link below:<br/>
+Currently, the 3D Replica is being hosted on GitHub Pages. If you would like to check out our project, please refer to the following links:<br/>
 [https://rirah123.github.io/Aframe-3D-Image-Replica](https://rirah123.github.io/Aframe-3D-Image-Replica)
+
+## Credits
+Several GLB models from Skethfab and audio files from Youtube were used in creating our 3D Replica. If you'd like to check out the resources that we used for creating our project, then please refer to the list below
+- [https://rirah123.github.io/Aframe-3D-Image-Replica](https://rirah123.github.io/Aframe-3D-Image-Replica)
 
