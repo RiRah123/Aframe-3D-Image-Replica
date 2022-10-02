@@ -15,7 +15,6 @@
       vr-mode-ui=""
       device-orientation-permission-ui=""
       light=""
-      sound="src: #howlsound; on: click; loop: true; volume: 0.5; rolloffFactor: 0; poolSize: 1; positional: false"
     >
 
       <!-- List of GLB Assets Used -->
@@ -25,14 +24,14 @@
 
         <!-- Model from Sketchfab: https://sketchfab.com/3d-models/flying-crow-blacksmiths-workshop-assets-3ecfc0834b5b4883b840d0426c267efe -->
         <a-asset-item id="wheatfield" src="assets/wheatfield.glb"></a-asset-item>
-        
       </a-assets>
+
       <!-- Cricket and Crow Sound 
            Sound from Youtube Video: https://www.youtube.com/watch?v=oT_Pbxpwlpc&ab_channel=WhatElseIsThere%3F -->
-      <audio id="howlsound" src="assets/crickets-and-crows-sound.mp3" preload="true" crossorigin="anonymous"></audio>
+      <a-sound src="src: url(assets/crickets-and-crows-sound.mp3)" preload="true" autoplay="true"></a-sound>
 
       <!-- Camera Positoning -->
-      <a-entity id="cameraWrapper" position="0 1.5 40" rotation="-0.325 -40 -0.325">
+      <a-entity id='cameraWrapper' position="0 1.5 40" rotation="-0.325 -40 -0.325">
         <a-camera></a-camera>
       </a-entity>
 
