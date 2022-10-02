@@ -6,7 +6,7 @@
 Currently, the 3D Replica is being hosted on GitHub Pages. If you would like to check out our project, please refer to the following links:
 [https://rirah123.github.io/Aframe-3D-Image-Replica](https://rirah123.github.io/Aframe-3D-Image-Replica)
 
-**NOTE:** Since the 3D GLB models used for the project have a fairly large file size, it may take a few seconds for the site to load, so please be patient!
+**NOTE:** Since the 3D GLB models used for the project have a fairly large file size, it may take a few seconds for the site to load properly, so please be patient!
 
 ## Project Summary
 
