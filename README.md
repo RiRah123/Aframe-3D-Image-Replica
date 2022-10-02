@@ -1,5 +1,5 @@
 # Aframe-3D-Image-Replica
-[![AFrame](https://img.shields.io/badge/A-Frame-EF2D5E?style=for-the-badge&logo=A-Frame&logoColor=white)]()
+[![AFrame](https://img.shields.io/badge/A-Frame-EF2D5E?style=for-the-badge&logo=AFrame&logoColor=white)]()
 
 Our 3D Image Replica: For our Aframe project, we made a 3D replica of "Wheatfield with Crows" by Vincent Van Gogh. You can refer to the original 2D image below. If you would like to see the site, please check out the link on the GitHub Repo's README.md.
 
