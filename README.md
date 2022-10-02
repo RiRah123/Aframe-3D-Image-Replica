@@ -16,3 +16,7 @@ For our project, we were required to build a 3D environment based off a 2D piece
     <a href="https://rirah123.github.io/Aframe-3D-Image-Replica" target="_blank"> <img src="assets/3D-Environment-Replica.png" height="350" width="700" alt="3D Replica of Wheatfield with Crows"></a>
   </div>
 </h3>
+
+## The Site
+Currently, the 3D Replica is being hosted on GitHub Pages. If you would like to check out our project, please refer to the link below:
+[https://rirah123.github.io/Aframe-3D-Image-Replica](https://rirah123.github.io/Aframe-3D-Image-Replica)
