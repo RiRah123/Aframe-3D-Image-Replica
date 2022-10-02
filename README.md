@@ -2,11 +2,10 @@
 [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white)]()
 [![AFrame](https://img.shields.io/badge/AFrame-EF2D5E?style=for-the-badge&logo=AFrame&logoColor=white)]()
 
-Our 3D Image Replica: For our Aframe project, we made a 3D replica of "Wheatfield with Crows" by Vincent Van Gogh. You can refer to the original 2D image below. If you would like to see the site, please check out the link on the GitHub Repo's README.md.
+## Project Summary
 
-Link to Original 2D Image: https://upload.wikimedia.org/wikipedia/commons/d/d3/Vincent_Van_Gogh_-_Wheatfield_with_Crows.jpg
+For our project, we were required to build a 3D environment from a 2-dimensional piece of media. Using this as a baseline, we decided to build a 3D image replica of Vincent Willem van Gogh's *Wheatfield with Crows* using A-Frame. An original image of the 2D drawing is attached below and an image of the 3D replica for the drawing it attached below that.
 
-IMPORTANT NOTE: Dr. Bolter has given us an extension for the Aframe Project. We are allowed to work on this assignment until Thursday, October 6th because one of our team members had some challenges arise in their personal life. If you're a TA grading this project, you can verify this by asking Dr. Bolter. Although we submitted this assignment on time, we continued working on it until the new deadline (which you can see from the GitHub repo). If you're seeing this assignment before October 6th, please grade our assignment until after the new deadline has passed.
-
-
-Link to site: https://rirah123.github.io/Aframe-3D-Image-Replica/
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Vincent_Van_Gogh_-_Wheatfield_with_Crows.jpg" height="350" width="700" alt="Wheatfield with Crows by Vincent van Gogh">
+</p>
