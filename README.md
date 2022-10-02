@@ -4,7 +4,7 @@
 
 ## Project Summary
 
-For our project, we were required to build a 3D environment from a 2-dimensional piece of media. Using this as a baseline, we decided to build a 3D image replica of Vincent Willem van Gogh's *Wheatfield with Crows* using A-Frame. An original image of the 2D drawing is attached below and an image of the 3D replica for the drawing it attached below that.
+For our project, we were required to build a 3D environment based off a 2D piece of media. Using this as a baseline, we decided to build a 3D image replica of Vincent Willem van Gogh's *Wheatfield with Crows* using A-Frame. An original image of the 2D drawing is attached below and an image of the 3D replica for the drawing it attached below that.
 
 <h3 align="center">
     Original 2D Drawing:<br/>
