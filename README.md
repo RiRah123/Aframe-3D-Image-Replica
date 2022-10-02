@@ -13,6 +13,6 @@ For our project, we were required to build a 3D environment based off a 2D piece
 
 <h3 align="center">
     3D Replica of Drawing:<br/>
-    <a href="https://en.wikipedia.org/wiki/Wheatfield_with_Crows" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Vincent_Van_Gogh_-_Wheatfield_with_Crows.jpg" height="350" width="700" alt="3D Replica of Wheatfield with Crows"></a>
+    <a href="https://rirah123.github.io/Aframe-3D-Image-Replica" target="_blank"> <img src="" height="350" width="700" alt="3D Replica of Wheatfield with Crows"></a>
   </div>
 </h3>
