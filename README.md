@@ -2,12 +2,6 @@
 [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white)]()
 [![AFrame](https://img.shields.io/badge/AFrame-EF2D5E?style=for-the-badge&logo=AFrame&logoColor=white)]()
 
-## The Site
-Currently, the 3D Replica is being hosted on GitHub Pages. If you would like to check out our project, please refer to the following link:
-[https://rirah123.github.io/Aframe-3D-Image-Replica](https://rirah123.github.io/Aframe-3D-Image-Replica)
-
-**NOTE:** Since the 3D GLB models used for the project have a fairly large file size, it may take a few seconds for the site to load properly, so please be patient!
-
 ## Project Summary
 
 For our project, we were required to build a 3D environment based off a 2D piece of media. Using this as a baseline, we decided to build a 3D image replica of Vincent Willem van Gogh's *Wheatfield with Crows* using A-Frame. An original image of the 2D drawing is attached below and an image of our 3D replica for the drawing it attached below that.
@@ -22,6 +16,12 @@ For our project, we were required to build a 3D environment based off a 2D piece
     <a href="https://rirah123.github.io/Aframe-3D-Image-Replica" target="_blank"> <img src="assets/3D-Environment-Replica.png" height="350" width="700" alt="3D Replica of Wheatfield with Crows"></a>
   </div>
 </h3>
+
+## The Site
+Currently, the 3D Replica is being hosted on GitHub Pages. If you would like to check out our project, please refer to the following link:
+[https://rirah123.github.io/Aframe-3D-Image-Replica](https://rirah123.github.io/Aframe-3D-Image-Replica)
+
+**NOTE:** Since the 3D GLB models used for the project have a fairly large file size, it may take a few seconds for the site to load properly, so please be patient!
 
 ## Credits
 Several GLB models from Skethfab and audio files from Youtube were used in creating our 3D Replica. If you'd like to check out the resources that we used for creating our project, then please refer to the list below:
